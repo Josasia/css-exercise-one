@@ -1,5 +1,9 @@
-body
-  font-size: 14px;
+/*some order of files (with index.html) is over-riding the "background color=yellow"
+command....moved many blocks around trying to learn the language, ordering
+may be incorrect/un-traditional..always alphabetize..*/
+
+body {
+ font-size: 14px;
 }
 
 nav {
@@ -8,29 +12,31 @@ nav {
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
-
-section {
-  margin: 0 auto;
-  width: 60%;
 }
 
-h1 {
-  font-family sans-serif;
-  font-size: 2em;
-}
-
-.example, h3 {
-  padding-top: 30px;
-  text-align center
-}
-
-h3 {
+h1, h2, h3 {
+  font-family: sans-serif;
   font-size: 1.3em;
 }
-
-.element {
-  background-color: green;
-  height: 100px;
-  margin 10px 0;
+.example, section {
+  margin: 0 auto;
   width: 100%;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.element, h2 {
+  background-color: green;
+  font size: 1.3em;
+  height: 100px;
+  margin: 10px, 0;
+  width: 100%;
+}
+
+.element, h3 {
+  background-color: blue;
+  font size: 1.3em;
+  height: 100px;
+  margin: 10px, 0;
+  width: 100%;
+}
